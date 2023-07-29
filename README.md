@@ -12,6 +12,7 @@ In diesem Repository finden Sie:
 
 Für die direkte Ausführung wird die Plattform myBinder https://mybinder.org/ verwendet.
 
+# Implementierung
 
  Wrapper Timer und Logger :
 
@@ -94,7 +95,7 @@ Eine Log-Datei "logmodelFit.log" wird ereugt, und erscheint links im Reiter.
 
 Bei der Ausführung des Notebooks wird die Laufzeit angezeigt.
 
-
+# Testfälle
 
 Zwei Testfälle werden implementiert:
 
