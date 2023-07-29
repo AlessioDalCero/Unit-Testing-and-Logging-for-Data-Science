@@ -17,10 +17,12 @@ Für die direkte Ausführung wird die Plattform myBinder https://mybinder.org/ v
 
 ///
 
+
 from functools import wraps
 
 
 def my_logger(orig_func):
+
     import logging
     logging.basicConfig(filename='{}.log'.format(orig_func.__name__), level=logging.INFO)
 
@@ -57,9 +59,13 @@ Die Wrapper werden wiefolgt für folgende zwei Funktionen verwendet:
 
 
  @my_logger
+ 
  @my_timer
+ 
  def logmodelFit():
+ 
     return logmodel.fit(X_train,y_train)
+    
  logmodelFit()
 
 
@@ -70,15 +76,20 @@ Eine Log-Datei "logmodelFit.log" wird ereugt, und erscheint links im Reiter.
 
 
 
+///
 
- @my_logger
- @my_timer
- def logmodelPredict():
-     return logmodel.predict(X_test)
- predictions = logmodelPredict()
+  @my_logger
+  
+  @my_timer
+  
+  def logmodelPredict():
+  
+      return logmodel.predict(X_test)
+      
+   predictions = logmodelPredict()
 
 
-
+///
 
 
 Bei der Ausführung des Notebooks wird die Laufzeit angezeigt.
