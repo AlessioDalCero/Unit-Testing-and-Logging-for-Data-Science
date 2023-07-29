@@ -99,6 +99,8 @@ Bei der Ausführung des Notebooks wird die Laufzeit angezeigt.
 Zwei Testfälle werden implementiert:
 
 Testfall 1: Prüfung ob der Vorhersagewert predict() es Modells korrekt funktioniert.
+
+
 Testfall 2: Prüfung der Laufzeit der Trainingsfunktion fit(). 
 
 
