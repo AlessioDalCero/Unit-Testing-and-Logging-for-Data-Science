@@ -127,6 +127,7 @@ Die Laufzeit der Traingsfunktion fit() überschreitet während der Testfallausf�
 ![alt text](https://github.com/AlessioDalCero/Unit-Testing-and-Logging-for-Data-Science/blob/1e9b1fb47f2df4e3d7cf72e7236a4efa68f646b2/Foto.png)
 
 
+![alt text](https://github.com/AlessioDalCero/Unit-Testing-and-Logging-for-Data-Science/blob/ae3aff5184e2b5b080a44d9eaa43634fae27a3d1/Bildschirmfoto%202023-07-29%20um%2013.06.31.png)
 
 
 
