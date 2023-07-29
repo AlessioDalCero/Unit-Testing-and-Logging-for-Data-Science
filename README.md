@@ -99,6 +99,7 @@ Bei der Ausführung des Notebooks wird die Laufzeit angezeigt.
 
 Zwei Testfälle werden implementiert:
 
+
 Testfall 1: Prüfung ob der Vorhersagewert predict() des Modells korrekt funktioniert.
 
 
@@ -108,6 +109,27 @@ Testfall 2: Prüfung der Laufzeit der Trainingsfunktion fit().
 
 
 # Ergebnisse: 
+
+Testfall 1
+
+Es werden 2 verschiedene Testdaten durch Datein übergeben. 
+
+-Das File "Data1" representiert einen zulässigen Wert und führt zu einen erfolgreichem Ergebnis. 
+
+
+-Durch Übergabe der 2. Datei "Data2" mit einem unzulässigen Ergebnis schlägt der Versuch fehl. 
+
+
+Testfall 2
+
+Die Laufzeit der Traingsfunktion fit() überschreitet während der Testfallausführung den Grenwert von 120% der representativen Laufzeit nicht.
+
+![alt text](https://github.com/AlessioDalCero/Unit-Testing-and-Logging-for-Data-Science/blob/1e9b1fb47f2df4e3d7cf72e7236a4efa68f646b2/Foto.png)
+
+
+
+
+
 
 # MyBinder 
 
